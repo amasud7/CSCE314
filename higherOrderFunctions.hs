@@ -1,4 +1,4 @@
-import Data.Type.Equality (apply)
+
 double :: Int -> Int
 double n = n + n
 
@@ -17,10 +17,14 @@ multiplyBy n x = n * x -- n is the first input given to the function (multiplyBy
 compisitionFunction :: Int -> Int
 compisitionFunction = triple.double -- this will do double then triple on wtv input to compisitionFunction
 
+-- A curried function
+greet :: String -> String -> String
+greet title name = "Howdy, " ++ title ++ " " ++ name ++ "!"
+
 main :: IO ()
 main = do
 
--- higher order function applies a function to an int
+    -- higher order function applies a function to an int
     print(applyFunction double 77)
     print(applyFunction triple 33)
 
@@ -30,3 +34,21 @@ main = do
 
     -- composition function
     print(compisitionFunction 5)
+
+    -- lambda functions/expression --> good to use if u dont need a fully built out function for it and only want to use it a couple times
+    let square x = x * x -- basically an inline built function
+    print(square 5)
+
+    -- lambda function applied to a list
+    let numbers = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+    let squares = map (\x -> x*x) numbers -- in the () is the lambda function
+    print squares
+
+    let filterEven = filter even
+    print(filterEven numbers)
+
+    -- Application of curried function (you can see how it applies to part of the string and then you can add the rest)
+    let greetMr = greet "Mr."
+    print(greetMr "Masud")
+    print(greet "Mr." "Ayad")
+
