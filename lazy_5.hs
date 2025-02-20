@@ -13,7 +13,6 @@ factorialLazy n = product [1..n]
 factorialStrict :: Integer -> Integer
 factorialStrict n = foldl' (*) 1 [1..n]
 
-
 main :: IO ()
 main = do
     putStrLn "Enter a number to compute its factorial"
