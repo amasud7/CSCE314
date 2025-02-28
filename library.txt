@@ -1,0 +1,15 @@
+The Hobbit;J.R.R. Tolkien;True
+1984;George Orwell;True
+The Catcher in the Rye;J.D. Salinger;False
+To Kill a Mockingbird;Harper Lee;True
+Pride and Prejudice;Jane Austen;True
+The Great Gatsby;F. Scott Fitzgerald;False
+Moby Dick;Herman Melville;True
+War and Peace;Leo Tolstoy;False
+The Odyssey;Homer;True
+The Lord of the Rings;J.R.R. Tolkien;True
+The Picture of Dorian Gray;Oscar Wilde;True
+Brave New World;Aldous Huxley;True
+The Chronicles of Narnia;C.S. Lewis;False
+The Catcher in the Rye;J.D. Salinger;True
+Crime and Punishment;Fyodor Dostoevsky;True

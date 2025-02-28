@@ -3,15 +3,18 @@
   (by entering your name and date you certify this is your
   own work and not that of any other person or service.
   Comment your functions for clarity.-}
+{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
+{-# HLINT ignore "Use lambda-case" #-}
 
 import System.IO
 import Data.Maybe
+import Data.List (partition)
 import Control.Monad
 
 -- Book structure: (Title, Author, Availability)
 type Book = (String, String, Bool)
 
--- Function to read books from the file
+-- Function to read books from the filew
 readBooks :: FilePath -> IO [Book]
 readBooks fileName = do
     contents <- readFile fileName
@@ -57,6 +60,10 @@ fst3 (x, _, _) = x
 snd3 :: (a, b, c) -> b
 snd3 (_, x, _) = x
 
+-- Utility function to extract the third element of a tuple
+thd3 :: (a, b, c) -> c
+thd3 (_, _, x) = x
+
 -- Utility function to split a string by a delimiter
 wordsWhen :: (Char -> Bool) -> String -> [String]
 wordsWhen p s = case dropWhile p s of
@@ -70,3 +77,51 @@ Complete any functions,
 Write any additional functions,
 Complete the Main
 -}
+main :: IO ()
+main = do
+    putStrLn "Welcome to the library system!"
+    bookList <- readBooks "./library.txt"
+
+    let loop books = do
+            putStrLn "\n1. List Available Books"
+            putStrLn "2. Check Out a Book"
+            putStrLn "3. Return a Book"
+            putStrLn "4. Exit"
+            putStrLn "Enter your choice: "
+            choice <- getLine
+            case choice of
+                "1" -> do
+                    listAvailableBooks books
+                    loop books
+                "2" -> do
+                    putStrLn "\nEnter the title of the book you want to check out: "
+                    title <- getLine
+                    let (found, rest) = partition (\(t, _, _) -> t == title) books
+                    if null found
+                        then putStrLn "\nBook not found!" >> loop books
+                        else do
+                            let (book:_) = found
+                            if not (thd3 book)
+                                then putStrLn "\nBook is already checked out!" >> loop books
+                                else do
+                                    newBookList <- checkOutBook title books
+                                    loop newBookList
+                "3" -> do
+                    putStrLn "\nEnter the title of the book you want to return: "
+                    title <- getLine
+                    let (found, rest) = partition (\(t, _, _) -> t == title) books
+                    if null found
+                        then putStrLn "\nBook not found!" >> loop books
+                        else do
+                            let (book:_) = found
+                            if thd3 book
+                                then putStrLn "\nBook is already returned!" >> loop books
+                                else do
+                                    newBookList <- returnBook title books
+                                    loop newBookList
+                "4" -> putStrLn "\nGoodbye!"
+                _   -> do
+                    putStrLn "\nInvalid choice, please try again."
+                    loop books
+    loop bookList
+
