@@ -12,4 +12,14 @@ public class MyDominoes {
 
         return set;
     }
+
+    public static void shuffleSet(String[] s) {
+        for(int i = 0; i < s.length; i++){
+            String first = s[i];
+            int rand = (int)(Math.random() * s.length - i ) + i;
+            s[i] = s[rand];
+            s[rand] = first;
+        }
+    }
+
 }
