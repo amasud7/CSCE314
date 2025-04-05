@@ -1,0 +1,237 @@
+Starting War Game...
+Player 1 plays: 8-S
+Player 2 plays: A-C
+Player 2 wins the round!
+Player 1 plays: 3-H
+Player 2 plays: 5-H
+Player 2 wins the round!
+Player 1 plays: K-D
+Player 2 plays: 7-H
+Player 1 wins the round!
+Player 1 plays: 6-D
+Player 2 plays: 5-S
+Player 1 wins the round!
+Player 1 plays: 2-S
+Player 2 plays: T-C
+Player 2 wins the round!
+Player 1 plays: 4-S
+Player 2 plays: 3-D
+Player 1 wins the round!
+Player 1 plays: T-H
+Player 2 plays: Q-C
+Player 2 wins the round!
+Player 1 plays: 3-C
+Player 2 plays: 9-C
+Player 2 wins the round!
+Player 1 plays: 4-H
+Player 2 plays: 6-H
+Player 2 wins the round!
+Player 1 plays: J-H
+Player 2 plays: 9-D
+Player 1 wins the round!
+Player 1 plays: 5-C
+Player 2 plays: J-C
+Player 2 wins the round!
+Player 1 plays: 8-H
+Player 2 plays: 9-S
+Player 2 wins the round!
+Player 1 plays: 7-D
+Player 2 plays: T-S
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 4-D
+Player 1 wins the round!
+Player 1 plays: J-D
+Player 2 plays: K-C
+Player 2 wins the round!
+Player 1 plays: A-D
+Player 2 plays: J-S
+Player 1 wins the round!
+Player 1 plays: 6-S
+Player 2 plays: 6-C
+War!
+Player 1 plays (war): Q-S
+Player 2 plays (war): 5-D
+Player 1 wins the war!
+Player 1 plays: K-S
+Player 2 plays: K-H
+War!
+Player 1 plays (war): 8-C
+Player 2 plays (war): Q-H
+Player 2 wins the war!
+Player 1 plays: K-D
+Player 2 plays: 8-S
+Player 1 wins the round!
+Player 1 plays: 7-H
+Player 2 plays: A-C
+Player 2 wins the round!
+Player 1 plays: 6-D
+Player 2 plays: 3-H
+Player 1 wins the round!
+Player 1 plays: 5-S
+Player 2 plays: 5-H
+War!
+Player 1 plays (war): 9-D
+Player 2 plays (war): Q-C
+Player 2 wins the war!
+Player 1 plays: A-H
+Player 2 plays: 3-C
+Player 1 wins the round!
+Player 1 plays: 4-D
+Player 2 plays: 9-C
+Player 2 wins the round!
+Player 1 plays: A-D
+Player 2 plays: 4-H
+Player 1 wins the round!
+Player 1 plays: J-S
+Player 2 plays: 6-H
+Player 1 wins the round!
+Player 1 plays: 6-S
+Player 2 plays: 5-C
+Player 1 wins the round!
+Player 1 plays: 6-C
+Player 2 plays: J-C
+Player 2 wins the round!
+Player 1 plays: 2-H
+Player 2 plays: 8-H
+Player 2 wins the round!
+Player 1 plays: 8-D
+Player 2 plays: 9-S
+Player 2 wins the round!
+Player 1 plays: T-D
+Player 2 plays: 7-D
+Player 1 wins the round!
+Player 1 plays: 7-C
+Player 2 plays: T-S
+Player 2 wins the round!
+Player 1 plays: 2-C
+Player 2 plays: J-D
+Player 2 wins the round!
+Player 1 plays: 2-D
+Player 2 plays: K-C
+Player 2 wins the round!
+Player 1 plays: Q-S
+Player 2 plays: K-S
+Player 2 wins the round!
+Player 1 plays: 5-D
+Player 2 plays: K-H
+Player 2 wins the round!
+Player 1 plays: K-D
+Player 2 plays: 7-S
+Player 1 wins the round!
+Player 1 plays: 8-S
+Player 2 plays: A-S
+Player 2 wins the round!
+Player 1 plays: 6-D
+Player 2 plays: 4-C
+Player 1 wins the round!
+Player 1 plays: 3-H
+Player 2 plays: Q-D
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 9-H
+Player 1 wins the round!
+Player 1 plays: 3-C
+Player 2 plays: 3-S
+War!
+Player 1 plays (war): 6-H
+Player 2 plays (war): A-C
+Player 2 wins the war!
+Player 1 plays: 6-S
+Player 2 plays: 5-S
+Player 1 wins the round!
+Player 1 plays: 5-C
+Player 2 plays: 5-H
+War!
+Player 1 plays (war): 7-S
+Player 2 plays (war): T-C
+Player 2 wins the war!
+Player 1 plays: 6-D
+Player 2 plays: J-H
+Player 2 wins the round!
+Player 1 plays: 4-C
+Player 2 plays: T-H
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 9-D
+Player 1 wins the round!
+Player 1 plays: 9-H
+Player 2 plays: Q-C
+Player 2 wins the round!
+Player 1 plays: 6-S
+Player 2 plays: 4-D
+Player 1 wins the round!
+Player 1 plays: 5-S
+Player 2 plays: 9-C
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 6-C
+Player 1 wins the round!
+Player 1 plays: 9-D
+Player 2 plays: J-C
+Player 2 wins the round!
+Player 1 plays: 6-S
+Player 2 plays: 2-H
+Player 1 wins the round!
+Player 1 plays: 4-D
+Player 2 plays: 8-H
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 8-D
+Player 1 wins the round!
+Player 1 plays: 6-C
+Player 2 plays: 9-S
+Player 2 wins the round!
+Player 1 plays: 6-S
+Player 2 plays: 7-C
+Player 2 wins the round!
+Player 1 plays: 2-H
+Player 2 plays: T-S
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 2-C
+Player 1 wins the round!
+Player 1 plays: 8-D
+Player 2 plays: J-D
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 2-D
+Player 1 wins the round!
+Player 1 plays: 2-C
+Player 2 plays: K-C
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: Q-S
+Player 1 wins the round!
+Player 1 plays: 2-D
+Player 2 plays: K-S
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 5-D
+Player 1 wins the round!
+Player 1 plays: Q-S
+Player 2 plays: K-H
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 8-S
+Player 1 wins the round!
+Player 1 plays: 5-D
+Player 2 plays: A-S
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 3-H
+Player 1 wins the round!
+Player 1 plays: 8-S
+Player 2 plays: Q-D
+Player 2 wins the round!
+Player 1 plays: A-H
+Player 2 plays: 3-C
+Player 1 wins the round!
+Player 1 plays: 3-H
+Player 2 plays: 3-S
+War!
+A player has run out of cards during war!
+Game Over!
+Player 1 has 0 cards.
+Player 2 has 52 cards.
+Player 2 wins the game!
