@@ -1,0 +1,4 @@
+1001,Checking,500.00
+1002,Savings,1000.00
+1003,Checking,700.00
+1004,Savings,700.00

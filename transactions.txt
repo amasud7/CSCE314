@@ -1,0 +1,5 @@
+deposit,1001,-,100.00
+withdraw,1003,-,500.00
+transfer,1002,1003,200.00
+deadlock_demo,1001,1002,50.00
+race_condition_demo,1003,1001,30.00

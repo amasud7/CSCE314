@@ -1,0 +1,9 @@
+Transaction: deadlockDemo.
+Transaction: raceConditionDemo.
+Race condition demo completed.
+Deposit successful: $100.0 to Account 1001
+Transfer successful: $200.0 from Account 1002 to Account 1003
+Withdrawal successful: $500.0 from Account 1003
+Transfer successful: $50.0 from Account 1001 to Account 1002
+Transfer successful: $50.0 from Account 1001 to Account 1002
+Deadlock demo completed.
